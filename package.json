@@ -1,18 +1,25 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "typescript-assessment",
+  "version": "1.0.0",
+  "description": "This is a collection of 5 problems in typescript for a job application.",
+  "main": "jest.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "test": "jest",
+    "run": "vite",
+    "build": "vite build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamonJOrtega/Typescript-Assessment.git"
+  },
+  "author": "Ramon Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamonJOrtega/Typescript-Assessment/issues"
+  },
+  "homepage": "https://github.com/RamonJOrtega/Typescript-Assessment#readme",
   "devDependencies": {
-    "typescript": "^4.9.3",
-    "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "jest": "^29.5.0"
+    "@types/jest": "^29.5.0",
+    "vite-plugin-vue2": "^2.0.3"
   }
 }
