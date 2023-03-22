@@ -18,3 +18,13 @@ export function question1_removeSmallNumbers(list: (number | undefined)[]) {
         }
     }
 }
+
+const testArray: (number | undefined)[] = [10, 1, 11, 2, 12, 3, 20] 
+
+console.log(question1_removeSmallNumbers(testArray))
+
+for (let index = 0; index < testArray.length; index++) {
+    console.log((testArray[index]))
+    
+}
+
