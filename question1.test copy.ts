@@ -1,6 +1,5 @@
 import { question1_removeSmallNumbers, solution1_removeSmallNumbers } from "./question1";
 
-
 describe('question1_removeSmallNumbers', () => {
     it('removes small numbers using list input that has failed before fixing', () => {
       let list = [5, 10, 15, 3, 8, undefined];;
